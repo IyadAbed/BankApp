@@ -2,7 +2,8 @@ import React from 'react';
 // import logo from './logo.svg';
 // import { Counter } from './features/counter/Counter';
 import './App.css';
-import { Bank } from './bank/bank';
+
+import DataComponent from './bank/DataComponent';
 
 function App() {
   return (
@@ -53,7 +54,8 @@ function App() {
     //     </span>
     //   </header>
     // </div>
-    <Bank />
+    // <Bank />
+    <DataComponent />
   );
 }
 
